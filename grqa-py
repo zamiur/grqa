@@ -1,0 +1,5 @@
+#/usr/bin/env python
+import random
+l = open('quran.txt',encoding="utf8").read().splitlines()
+ml =random.choice(l)
+print(ml)
