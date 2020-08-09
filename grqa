@@ -1,2 +1,3 @@
 #!/bin/bash
+cd /usr/bin
 echo "$(shuf -n 1 ./quran.txt --random-source=/dev/urandom | tr '\n' '\b')"

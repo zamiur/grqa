@@ -12,12 +12,18 @@
 
 Dependencies: wget, bash, su, chmod, python (if using gqra-py)
 
-```
+```bash
 su
 cd /usr/bin
 wget https://raw.githubusercontent.com/zamiur/grqa/master/gqra (or gqra-py)
-wget https://raw.githubusercontent.com/zamiur/grqa/master/quran.txt
 chmod +x grqa (or gqra-py)
+```
+
+Optional step (If you don't want this just continue as usual with the `wget` command)
+
+```bash
+vi gqra (or gqra-py) # Edit the "cd /usr/bin" line to the directory of moshaf
+wget https://raw.githubusercontent.com/zamiur/grqa/master/quran.txt
 exit
 ```
 
@@ -42,6 +48,13 @@ This program is freeware and should be treated as public domain.
 - Get specific Qur'an ayat
 - Fetch information and show meanings/definition
 - Implement recitation
+- Check if moshaf (`quran.txt`) exists, if not download again.
+
+### Changelog
+
+1.0.0 - Initial build (Both bash and python)
+
+1.0.1 - Patch to fix `shuf: ./quran.txt: No such file or directory`.  By default, the Qur'an moshaf is stored in `/usr/bin`. Optionally the user can edit the directory line and set a custom directory where the moshaf is located. 
 
 ---
 
