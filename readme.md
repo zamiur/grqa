@@ -21,6 +21,10 @@ exit
 
 You can run it by typing `grqa` or`grqa-py`
 
+Example output:
+
+
+
 ### License
 
 This program is freeware and should be treated as public domain.
