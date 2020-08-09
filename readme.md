@@ -45,10 +45,18 @@ This program is freeware and should be treated as public domain.
 
 ### Future Plans (possibly)
 
-- Get specific Qur'an ayat
-- Fetch information and show meanings/definition
+Ideas considered *["feature-creep-esque"](https://en.wikipedia.org/wiki/Feature_creep)* (I might make a whole new program for these)
+
 - Implement recitation
+- Fetch information and show meanings/definition*
+
+***Ideas that could be implemented***
+
+- Get specific Qur'an ayat (for example `grqa 1 5` will print out ayat 5 of Surah Fatiha)
+- Fetch information and show meanings/definition*
 - Check if moshaf (`quran.txt`) exists, if not download again.
+
+<p style="font-size: small;">*As to how much information should be necessary before it can be considered more of a feature creep</p>
 
 ### Changelog
 
