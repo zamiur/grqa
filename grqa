@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(shuf -n 1 ./Quran.TXT --random-source=/dev/urandom | tr '\n' '\b')"
+echo "$(shuf -n 1 ./quran.txt --random-source=/dev/urandom | tr '\n' '\b')"
